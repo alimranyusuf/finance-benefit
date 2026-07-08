@@ -137,3 +137,57 @@ body{
     color:#d0d8e2;
     line-height:1.6;
 }
+
+/* How It Works */
+
+.how-it-works{
+    padding:90px 8%;
+    background:#081b33;
+    text-align:center;
+}
+
+.how-it-works h2{
+    font-size:42px;
+    margin-bottom:60px;
+}
+
+.steps{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:30px;
+}
+
+.step{
+    background:#132c4f;
+    padding:35px;
+    border-radius:18px;
+    transition:.3s;
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+}
+
+.step:hover{
+    transform:translateY(-10px);
+}
+
+.circle{
+    width:70px;
+    height:70px;
+    margin:0 auto 25px;
+    border-radius:50%;
+    background:#1d4ed8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.step h3{
+    margin-bottom:15px;
+    color:#4ea8ff;
+}
+
+.step p{
+    color:#d0d8e2;
+    line-height:1.7;
+}
