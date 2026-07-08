@@ -191,3 +191,14 @@ body{
     color:#d0d8e2;
     line-height:1.7;
 }
+/* Hero Trust Points */
+
+.hero-points{
+    margin:30px 0;
+}
+
+.hero-points p{
+    font-size:18px;
+    margin:10px 0;
+    color:#d0d8e2;
+}
